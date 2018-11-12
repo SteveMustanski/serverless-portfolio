@@ -5,4 +5,7 @@ This is the repo for my serverless portfolio.  It uses AWS and ReactJS.
 * AWS S3
 * AWS Cloudfront
 * AWS Route53
-
+* AWS Codebuild
+* HTML/CSS
+* Python
+* Boto3
