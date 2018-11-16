@@ -6,7 +6,7 @@ import mimetypes
 
 def lambda_handler(event, context):
     
-    sns = boto3.resource('sns')
+    sns = boto3.resource('sns');
     topic = sns.Topic('arn:aws:sns:us-east-1:854423450523:deployPortfolioTopic')
 
     location = {
@@ -19,7 +19,7 @@ def lambda_handler(event, context):
         
         if job:
             for artifact in job["data"]["inputArtifacts"]:
-                if artifact["name"] == "MyAppBuilod":
+                if artifact["name"] == "MyAppBuild":
                     location = artifact["location"]["s3location"]
                     
         print "Building portfolio from " + str(location)
@@ -51,4 +51,3 @@ def lambda_handler(event, context):
         topic.publish(Subject="Portfolio Deployment Failed", Message="There has been a failed deployment to the portfolio")
         raise
             
-        return 'Job completed!'
