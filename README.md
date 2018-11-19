@@ -11,6 +11,7 @@ You can view the published portfolio page at portfolio.stevemustanski.com
 * ReactJS
 * Python
 * Boto3
+* Babel
 
 ## AWS Services used to build and publish the portfolio
 * AWS S3
