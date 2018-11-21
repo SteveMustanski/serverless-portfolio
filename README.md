@@ -11,7 +11,14 @@ You can view the published portfolio page at portfolio.stevemustanski.com
 * ReactJS
 * Python
 * Boto3
+
+## Dev Technologies/frameworks used
+* Mocha
+* Chai
+* Jest
+* Enzyme
 * Babel
+* Webpack
 
 ## AWS Services used to build and publish the portfolio
 * AWS S3
