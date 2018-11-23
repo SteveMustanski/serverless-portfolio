@@ -4,7 +4,7 @@ This is the repo for my serverless portfolio.  It uses AWS and ReactJS.
 In addition to the portfolio code, Code Pipeline and other AWS services are used to deploy code chages pushed to github to
 AWS S3. 
 
-You can view the published portfolio page at portfolio.stevemustanski.com
+You can view the published [draft portfolio page](https://portfolio.stevemustanski.com).
 
 ## Technologies/frameworks used
 * HTML/CSS
