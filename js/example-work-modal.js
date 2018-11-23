@@ -1,14 +1,16 @@
 import React from 'react';
 
-class ExampleWorkModel extends React.Component {
+class ExampleWorkModal extends React.Component {
 
   render() {
 
     let example = this.props.example;
+    let modalClass = this.props.open ? 'modal--open' : 'modal--closed';
 
     return (
-      <div className="background--skyBlue modal--closed">
-      <span className="color--cloud modal__closeButton">
+      <div className={"background--skyBlue " + modalClass}>
+      <span className="color--cloud modal__closeButton"
+      onClick={this.props.closeModal}>
         <i className="fa fa-window-close-o"></i>
       </span>
       <img alt={example.image.desc}
@@ -31,4 +33,4 @@ class ExampleWorkModel extends React.Component {
   };
 };
 
-export default ExampleWorkModel;
+export default ExampleWorkModal;

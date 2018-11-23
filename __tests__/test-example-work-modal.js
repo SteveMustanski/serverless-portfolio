@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ExampleWorkModal from '../js/example-work-model';
+import ExampleWorkModal from '../js/example-work-modal';
 
 import Enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
@@ -18,7 +18,11 @@ const myExample = {
 }
 
 describe('ExampleWorkModal component', () => {
-  let component = shallow(<ExampleWorkModal example={myExample}/>);
+  let component = shallow(<ExampleWorkModal example={myExample}
+  open={false}/>);
+
+  let openComponent = shallow(<ExampleWorkModal example={myExample}
+    open={true}/>);
 
   let anchors = component.find('a');
 
@@ -28,5 +32,10 @@ describe('ExampleWorkModal component', () => {
 
   it('Should link to project', () => {
     expect(anchors.prop('href')).toEqual(myExample.href);
+  });
+
+  it('Should have the modal class set correctly', () => {
+    expect(component.find(".background--skyBlue").hasClass("modal--closed")).toBeTrue;
+    expect(openComponent.find(".background--skyBlue").hasClass("modal--open")).toBeTrue;
   })
 });
