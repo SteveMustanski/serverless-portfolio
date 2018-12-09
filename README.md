@@ -29,13 +29,13 @@ You can view the published [draft portfolio page](https://portfolio.stevemustans
 * AWS Lambda
 
 ## Deployment Pipeline
-AWS is used to deploy that application whenever there is an update to the master branch of this portfolio.
+AWS is used to deploy the application whenever there is an update to the master branch of this portfolio.
 
 AWS Code Pipeline pieces together various services to deploy the code.  The pipeline uses AWS Codebuild and AWS Lambda to take the code from
-github and deploy the code.
+github and deploy the code to the customer facing AWS edge caches.
 
 The high-level steps are as follows:
 * Codebuild watches for changes to the master banch of the github repo
-* Codebuild then executes the build steps and deploys a zip file of the built files to s3
-* A lambda function is then run that unzips the deployment package and deploys the files to s3
-* The changes are then picked up by CloudFront every 60 minutes 
+* Codebuild then executes the build steps and deploys a zip file of the built files to build s3 bucket
+* A lambda function is then run that unzips the deployment package and deploys the files to source s3 bucket
+* The changes are then picked up by CloudFront once a day
