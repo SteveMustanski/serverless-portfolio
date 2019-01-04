@@ -4,12 +4,12 @@ import ExampleWork from './example-work';
 
 const myWork = [
   {
-    'title': 'Work Example',
-    'href': "https://example.com",
-    'desc': "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    'title': 'Scoreboard',
+    'href': "https://gentle-ravine-75929.herokuapp.com/",
+    'desc': "A simple scoreboard app written with react and running on Heroku",
     'image': {
-      'desc': 'example screenshot of a project involving code',
-      'src': 'images/example1.png',
+      'desc': 'example screenshot of a project using react',
+      'src': 'images/scoreboard.png',
       'comment': ''
     }
   },
