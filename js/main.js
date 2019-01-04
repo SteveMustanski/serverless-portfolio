@@ -6,7 +6,7 @@ const myWork = [
   {
     'title': 'Scoreboard',
     'href': "https://gentle-ravine-75929.herokuapp.com/",
-    'desc': "A simple scoreboard app written with react and running on Heroku",
+    'desc': "A simple scoreboard app written with react and running on Heroku.",
     'image': {
       'desc': 'example screenshot of a project using react',
       'src': 'images/scoreboard.png',
@@ -14,14 +14,13 @@ const myWork = [
     }
   },
   {
-    'title': 'Coming Soon',
-    'href': "https://example.com",
-    'desc': "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    'title': 'RSVP',
+    'href': "https://stevemustanski.github.io/rsvp-react/",
+    'desc': "A simple RSVP application allowing users to keep track of invitees.",
     'image': {
-      'desc': 'example screenshot of a project involving chemistry',
-      'src': 'images/example2.png',
-      'comment': `“Chemistry” by Surian Soosay is licensed under CC BY 2.0
-      https://www.flickr.com/photos/ssoosay/4097410999`
+      'desc': 'example screenshot of an RSVP tracking application built with react',
+      'src': 'images/rsvp.png',
+      'comment': ''
     }
   },
   {
