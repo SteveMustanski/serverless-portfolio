@@ -14,7 +14,7 @@ const myWork = [
     }
   },
   {
-    'title': ' Work Example',
+    'title': 'Coming Soon',
     'href': "https://example.com",
     'desc': "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     'image': {
@@ -25,7 +25,7 @@ const myWork = [
     }
   },
   {
-    'title': 'Work Example',
+    'title': 'Coming Soon',
     'href': "https://example.com",
     'desc': "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
     'image': {
