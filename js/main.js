@@ -24,14 +24,13 @@ const myWork = [
     }
   },
   {
-    'title': 'Coming Soon',
-    'href': "https://example.com",
-    'desc': "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    'title': 'Friend Finder',
+    'href': "https://secret-journey-42090.herokuapp.com/",
+    'desc': "A simple survey using Node and Express to match you to a new friend.",
     'image': {
-      'desc': 'example screenshot of a project involving cats',
-      'src': 'images/example3.png',
-      'comment': `“Bengal cat” by roberto shabs is licensed under CC BY 2.0
-      https://www.flickr.com/photos/37287295@N00/2540855181`
+      'desc': 'example screenshot the friend finder survey',
+      'src': 'images/friendfinder.png',
+      'comment': ''
     }
   }
 ]
