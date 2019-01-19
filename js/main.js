@@ -6,6 +6,7 @@ const myWork = [
   {
     'title': 'Scoreboard',
     'href': "https://gentle-ravine-75929.herokuapp.com/",
+    'git': "https://github.com/SteveMustanski/scoreboard-react/",
     'desc': "A simple scoreboard app written with react and running on Heroku.",
     'image': {
       'desc': 'example screenshot of a project using react',
