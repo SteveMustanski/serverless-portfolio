@@ -17,6 +17,7 @@ const myWork = [
   {
     'title': 'RSVP',
     'href': "https://stevemustanski.github.io/rsvp-react/",
+    'git': "https://github.com/SteveMustanski/rsvp-react",
     'desc': "A simple RSVP application allowing users to keep track of invitees.",
     'image': {
       'desc': 'example screenshot of an RSVP tracking application built with react',
@@ -27,6 +28,7 @@ const myWork = [
   {
     'title': 'Friend Finder',
     'href': "https://secret-journey-42090.herokuapp.com/",
+    'git': "https://github.com/SteveMustanski/FriendFinder",
     'desc': "A simple survey using Node and Express to match you to a new friend.",
     'image': {
       'desc': 'example screenshot the friend finder survey',
