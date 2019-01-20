@@ -21,14 +21,14 @@ class ExampleWorkModal extends React.Component {
             {example.title}
           </h2>
           <div>
-            <a className="color--skyBlue modal__link"
+            <a id="project-link" className="color--skyBlue modal__link"
               href={example.href}>
               Check it out
         </a>
           </div>
           <p>
 
-            <a className="color--skyBlue modal__link"
+            <a id="git-link" className="color--skyBlue modal__link"
               href={example.git}>
               GitHub Repo
         </a>

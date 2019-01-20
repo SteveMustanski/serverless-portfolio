@@ -9,6 +9,7 @@ Enzyme.configure({ adapter: new Adapter() });
 const myExample = {
   'title': 'Work Example',
   'href': "https://example.com",
+  'git': "https://example.com",
   'desc': "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
   'image': {
     'desc': 'example screenshot of a project involving code',
@@ -24,14 +25,24 @@ describe('ExampleWorkModal component', () => {
   let openComponent = shallow(<ExampleWorkModal example={myExample}
     open={true}/>);
 
-  let anchors = component.find('a');
+  let project = component.find('#project-link');
 
-  it('Should contain a single anchor element', () => {
-    expect(anchors.length).toEqual(1);
+  it('Should contain a single project link', () => {
+    expect(project.length).toEqual(1);
   });
 
-  it('Should link to project', () => {
-    expect(anchors.prop('href')).toEqual(myExample.href);
+  it('Should link to project link', () => {
+    expect(project.prop('href')).toEqual(myExample.href);
+  });
+
+  let git = component.find('#git-link');
+
+  it('Should contain a single git link', () => {
+    expect(git.length).toEqual(1);
+  });
+
+  it('Should link to the git link', () => {
+    expect(git.prop('href')).toEqual(myExample.git);
   });
 
   it('Should have the modal class set correctly', () => {
