@@ -9,7 +9,7 @@ Enzyme.configure({ adapter: new Adapter() });
 const myExample = {
   'title': 'Work Example',
   'href': "https://example.com",
-  'git': "https://example.com",
+  'git': "https://examplegit.com",
   'desc': "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
   'image': {
     'desc': 'example screenshot of a project involving code',
